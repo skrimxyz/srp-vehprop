@@ -1,0 +1,20 @@
+{
+    "props": [
+        {
+            "offset": {
+                "y": 0.0,
+                "x": 0.0,
+                "z": 1.0
+            },
+            "label": "prop_wheel_01",
+            "rotation": {
+                "y": 0.0,
+                "x": 0.0,
+                "z": 0.0
+            },
+            "model": "prop_wheel_01"
+        }
+    ],
+    "vehicle": "TAXI",
+    "vehicleHash": -956048545
+}
