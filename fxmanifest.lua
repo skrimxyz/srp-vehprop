@@ -7,7 +7,7 @@ description 'Vehicle Prop Attachment System'
 author 'SRP'
 version '1.0.0'
 
-client_script "@srp-pwnzor/client/check.lua"
+client_script "@mythic-pwnzor/client/check.lua"
 
 shared_scripts {
     'config.lua',
@@ -28,3 +28,4 @@ files {
     'ui/dist/index.html',
     'ui/dist/**/*',
 }
+
