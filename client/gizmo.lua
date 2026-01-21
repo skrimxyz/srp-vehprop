@@ -124,7 +124,7 @@ function CheckAxisHover(propPos, mode)
     local normX, normY = mouseX / screenW, mouseY / screenH
     
     local size = Config.Gizmo.Size
-    local hitThreshold = 0.0
+    local hitThreshold = 0.06
     local closestAxis, closestDist = nil, hitThreshold
     
     if mode == "translate" then
@@ -239,3 +239,4 @@ function SetHoveredAxis(axis) hoveredAxis = axis end
 function GetHoveredAxis() return hoveredAxis end
 function IsDragging() return isDragging end
 function GetDragAxis() return dragAxis end
+
